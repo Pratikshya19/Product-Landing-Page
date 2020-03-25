@@ -1,27 +1,25 @@
 html {
-background-color: papayawhip;
 width:100%;
+height: 100%;
 }
+
 header {
-    /* margin-top: 0; */
     max-width: 100%;
     height:60px;
     display: flex;
     padding-left: 20px;
-    background-color: palevioletred;
- 
 }
 
 #header-img {
-height: 60px;
+height: 50px;
+padding: 10px;
 }
 
+
 #nav-bar {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     width: 100%;
 }
+
 .ul {
     display: flex;
     align-items: center;
@@ -31,6 +29,70 @@ height: 60px;
 }
 li {
     display: flex;
-
 justify-content: space-between;
 }
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+  }
+.coverpic{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+.cover-image {
+    width: 70%;
+    height: 50%;
+    align-self: center;
+}
+
+#video-page{
+    margin-top: 0px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    
+}
+.h1-featured {
+text-align: center;
+color: green
+}
+
+#Products {
+ display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+          padding-bottom: 40px;
+}
+
+.plant-1 {
+    height: 350px;
+      width: 250px;
+      margin-top: 30px;
+}
+.plant-img {
+    height: 350px;
+    width: 250px;
+
+}
+footer {
+    height: 150px;
+    background-color: black;
+    text-align: center;
+ margin-top: 10px;
+  }
+  .footer {
+      padding-top: 40px;
+      text-align: center;
+      color: white;
+      font-size:20px;
+      font-family: 'Nunito', sans-serif;
+  }
